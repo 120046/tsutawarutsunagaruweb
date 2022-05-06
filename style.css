@@ -152,6 +152,8 @@ font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif"
 width: 100%;
 }
 
+body{margin: 0;}
+
 .pc{display: block;	}
 .sp{display:none;	}
 
@@ -174,14 +176,14 @@ top:6%;
 left: 4%;}
 
 .maintext{
-font-size:6vw;
+font-size:5vw;
 line-height: 1.35;
 letter-spacing: 0.02em;
 font-weight: 600;}
 
 .subtext{
 display: block;
-font-size: 1.6vw;
+font-size: 1.5vw;
 line-height: 1.8;	
 letter-spacing: 0.1em;
 margin-top: 3%;
@@ -360,9 +362,6 @@ margin-right: 8px;
 background:url("./img/check.png") no-repeat scroll left center transparent;
 background-size: contain;}
 
-
-
-
 #work{
 margin: 100px auto 130px;	
 width: 90%;
@@ -427,28 +426,27 @@ font-weight: bold;
 margin-bottom: 5px;}
 
 
-
 .scroll {
   width: 100%;
   height: auto;
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;	
-margin-top:8%;	
+margin-top:7%;	
 margin-left: 1.3%;	
  z-index: 1;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.2em;
-  font-size: 3vw;}
+  font-size: 22px;}
 
 .scroll span {
 display: block; }
 
   svg {
     margin-top: 8px;
-    width: 4vw;
-    height: 4vw;
+    width: 33px;
+    height: 33px;
     animation: scroll 0.95s ease-in-out alternate infinite;
     fill: none;
     stroke: #000000;
@@ -616,8 +614,20 @@ letter-spacing: 0.1em;
 margin-top: 5%;
 padding-left: 1.3%;}	
 	
+
 .scroll {
-display: flex;}	
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;	
+margin-top:8%;	
+margin-left: 1.3%;	
+ z-index: 1;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 3vw;}
 
 	
 #sampleweb{
