@@ -141,6 +141,24 @@ bottomBubbles {  0% {
 }
 
 
+.textfade-b{
+animation-name: fadedown;
+animation-duration: 2s;
+animation-fill-mode:forwards;}
+
+@keyframes fadedown {
+from {
+    opacity: 0;
+    transform: translateY(70px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+
+
 /*--------------------------------------------------------------
 |
 | maincss
