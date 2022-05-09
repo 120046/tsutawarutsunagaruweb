@@ -162,7 +162,7 @@ to {
 | 1200 wide
 |
 --------------------------------------------------------------*/
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
 	
 #topmv .img_pc{
 display: none;}
@@ -173,7 +173,7 @@ display: none;}
 | 1200 min
 |
 --------------------------------------------------------------*/
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1200px) {
 	
 #topmv .img_wide{
 display: none;}
